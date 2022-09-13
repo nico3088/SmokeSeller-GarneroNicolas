@@ -2,10 +2,8 @@
 	margin: 0;
 	padding: 0;
 }
-
-
- ul li a{
-	
+ 
+ul li a{
 	font-size: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -13,8 +11,6 @@
 	font-family: cursive;
 	margin: 2%;
 	padding: 2%;
-
-	
 }
 
 .menu{
@@ -23,10 +19,9 @@
 	align-items: center;
 	justify-content: space-between;
 	list-style-type: none;
-	cursor: pointer;
-	
-
+	cursor: pointer;	
 }
+
 .home{
 	color: blue;
 	
