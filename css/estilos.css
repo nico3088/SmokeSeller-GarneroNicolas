@@ -263,7 +263,7 @@ ul li a{
 .imagen{
 	height: 150px;
 	width: 300px;
-	transform: rotate(180deg) translateX(400px);
+	transform: rotate(180deg);
 	cursor: pointer;
 	
 }
