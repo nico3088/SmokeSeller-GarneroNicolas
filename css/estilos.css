@@ -204,6 +204,7 @@ ul li a{
 .imagen-contacto{
 	width: 350px;
 	display: flex;
+	justify-content: center;
 }
 
 .premium {

@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Contacto</title>
-	<meta charset="utf-8">
-	<meta name=viewport content="width=device-width, initial-scale=1">
-	<link rel="shorcut icon" href="assets/favicon-32x32.png">
-	<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/estilos.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-	<header>
-		<div class="titulo">Smokeseller</div>
-	
-		<div class ="premium">premium e-liquids</div>
-		
-		
-	</header>
-
-	<main>
-
-	<nav>
-		<ul class ="menu">
-
-			<li><a href="index.html" class="home">Home</a></li>
-			<li><a href="tabaquiles.html " class="tabaquiles">Tabaquiles </a></li>
-			<li><a href="frutales.html" class="frutales">Frutales</a></li>
-			<li><a href="mentholados.html" class="mentholados">Mentholados</a></li>
-			<li><a href="postres-cremas.html" class="postres-cremas">Postres-cremas</a></li>
-			<li><a href="equipos-y-consumibles.html" class="equipos-y-consumibles">Equipos y consumibles</a></li>
-			<li><a href="contacto.html" class="contacto">Contacto</a></li>
-		</ul >
+	<div class="container text-center">
+		<header class="container-fluid">
+			<div class="col-sm-12">
+				<h1 class ="titulo">smokeseller</h1>
+				<h2 class ="premium">premium e-liquids</h2>
+			</div>
+		</header>
+	<nav class="navbar navbar-expand-lg bg-light">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tabaquiles.html">tabaquiles</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="frutales.html">frutales</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="mentholados.html">mentholados</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="postres-cremas.html">postres-cremas</a>
+					</li><li class="nav-item">
+						<a class="nav-link" href="equipos-y-consumibles.html">equipos-y-consumibles</a>
+					</li>
+				</li><li class="nav-item">
+					<a class="nav-link" href="contacto.html">contacto</a>
+				</li>
+				</ul>	
+		</div>
 	</nav>
 	
-	<div>
-		<img src="assets/ETIQUETA_5X5.JPG" class="imagen"></div>
+	
+		<div class="row">
+		  <div class="col">
+			<div><img src="assets/ETIQUETA_5X5.JPG" class="imagen"></div>
 	<div>
 		
 		<p class="contacto-pag">Deja tus datos y consulta y nos contactaremos!!!</p>
 		
 		<form action="" method="POST" enctype="multipart/form-data">
-			<input type="text" name="nombre" placeholder="Nombre" required>
-			<input type="text" name="apellido" placeholder="Apellido" required>
-			<input type="email" name="email" placeholder="Email" required>
-			<input type="text" name="telefono" placeholder="ej:3562558825"required >
-			<textarea name="mensaje" placeholder="Dejanos tu consulta" required></textarea>
+			<input type="text"  name="nombre" class= "text-center text-uppercase " placeholder="Nombre" required>
+			<input type="text" name="apellido" class= "text-center text-uppercase" placeholder="Apellido" required>
+			<input type="email" name="email "class= "text-center text-uppercase" placeholder="Email" required>
+			<input type="text" name="telefono" class= "text-center text-uppercase" placeholder="ej:3562558825"required >
+			<textarea name="mensaje" class= "form-control text-center text-uppercase" placeholder="Dejanos tu consulta" required></textarea>
 		
 				<p class="contacto-horario">Horario de contacto</p>
 				<select name="horario de contacto" >
@@ -59,21 +72,38 @@
 		
 			
 	</div>
-<div>
-		<img src="assets/contacto-smoke.JPG" class="imagen-contacto">
+<div class="row">
+	<div class="col"></div>	
+
+	<div class="col">
+		<img src="assets/contacto-smoke.JPG" class="imagen-contacto"></div>
+	<div class="col"></div>	
 </div>
 
-<footer class="piedepag">
-	<p>venta solo a mayores de 18 años</p>
-
-
-<p>Garnero Nicolás</p>
-
-
-<p>nicogarnero1@outlook.com</p>
+</div>
 </main>
-</footer>
+<div class="row">
+	<div class="col">
+		
+	</div>
+	<div class="col">
+		
+	</div>
+<div class="col">
+	<footer class="piedepag">
+		<p>venta solo a mayores de 18 años</p>
+	<p>Garnero Nicolás</p>
+	<p>nicogarnero1@outlook.com</p>
+	</footer> 
+</div>
 
+</div>
+</div>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 
