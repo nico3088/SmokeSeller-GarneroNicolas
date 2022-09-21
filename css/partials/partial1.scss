@@ -1,0 +1,75 @@
+.piedepag{
+	color: darkviolet;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: monospace;
+	text-align: right;
+			
+}
+.imagen{
+	height: 150px;
+	width: 300px;
+	transform: rotate(180deg);
+	cursor: pointer;
+	
+}
+
+.imagen-portada{
+	height: 600px;
+	transform: skew(5deg,2deg);
+	
+	
+}
+.mapa{
+	display: flex;
+	height: 100px;
+	width: 100px;
+
+}
+.sectionportada{
+	display: grid;
+	grid-template-columns: 600px 600px;
+	
+}
+
+body{
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	text-align: center;
+	background-image: radial-gradient(orange yellow);
+}
+
+
+.grid{
+	display: grid;
+	grid-template-areas: 
+	"  imagen "
+	"imagen-portada imagen-portada imagen-portada"
+	"imagen-portada imagen-portada imagen-portada"
+	"imagen-portada imagen-portada imagen-portada";
+	grid-template-rows: 100 px 1 fr 1 fr 75 px;
+	grid-template-columns: 20% auto 15%;
+}
+
+.boton{
+	border: none;
+	padding: 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	background-color: rgba(155, 146, 146, 0.807);
+	border-bottom: 3px solid black;
+	transition: padding 0.5s;
+
+}
+
+.boton:hover {
+	padding: 15px;
+	background-color: orangered;
+	color: white;
+
+}
+.imagen:hover {
+	transform: rotate(360deg);
+}
+
