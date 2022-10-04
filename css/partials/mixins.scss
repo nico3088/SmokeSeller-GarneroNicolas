@@ -1,0 +1,12 @@
+@mixin boton($backColor,$border) {
+	padding: 10px;
+    border: none;
+	padding: 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	background-color: $backColor;
+	border-bottom: 3px solid rgb(197, 16, 16);
+	transition: padding 0.5s;
+	
+
+}
