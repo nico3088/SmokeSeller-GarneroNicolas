@@ -1,5 +1,8 @@
+
 $font-stack: Helvetica, sans-serif;
 $primary-color: red;
+
+
 
 *{
 	margin: 0;
@@ -45,11 +48,9 @@ ul{
 	transform: rotate(-3deg)
 }
 .tabaquiles-titulo{
-	font-size: 50px;
-	text-decoration: underline;
-	text-align: center;
+	@extend %tituloDefault;
 	color: darkviolet;
-	font-family: cursive;
+
 	
 
 }
@@ -76,11 +77,9 @@ ul{
 	transform: rotate(3deg)
 }
 .frutales-titulo{
-	font-size: 50px;
-	text-decoration: underline;
-	text-align: center;
+	@extend %tituloDefault;
 	color: green;
-	font-family: cursive;
+	
 }
 
 .frutales li {
@@ -106,11 +105,9 @@ ul{
 }
 
 .mentholados-titulo{
-	font-size: 50px;
-	text-decoration: underline;
-	text-align: center;
+	@extend %tituloDefault;
 	color: lightblue;
-	font-family: cursive;
+
 }
 
 .mentholados li {
@@ -136,12 +133,10 @@ ul{
 
 }
 .postres-cremas-titulo{
-	font-size: 50px;
-	text-decoration: underline;
-	text-align: center;
+	@extend %tituloDefault;
 	color: darkred;
-	font-family: cursive;
 }
+
 .postres-cremas li {
 	font-size: 40px;
 	text-transform: uppercase;
@@ -166,11 +161,9 @@ ul{
 }
 
 .equipos-y-consumibles-titulo{
-	font-size: 50px;
-	text-decoration: underline;
-	text-align: center;
+	@extend %tituloDefault;
 	color: darkcyan;
-	font-family: cursive;
+	
 }
 
 .equipos-y-consumibles li{
@@ -263,8 +256,10 @@ header{
     div{
       .titulo{
         line-height: 145px;
-        height: 100px;
-       background-color: aqua;
-      }
+        background-color:map-get($color,colorT) ;
+		height: map-get($tamano,heightTituloIndex)
+       	 
+	 }
+
     }
   }

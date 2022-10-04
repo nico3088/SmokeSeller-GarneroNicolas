@@ -1,9 +1,10 @@
 .piedepag {
   color: darkviolet;
-  font-size: 15px;
+  font-size: 50px;
   text-transform: uppercase;
   font-family: monospace;
   text-align: right;
+  background-color: rgb(200, 137, 251);
 }
 
 .imagen {
@@ -34,7 +35,6 @@ body {
   height: 600px;
   flex-direction: column;
   text-align: center;
-  background-image: radial-gradient(orange yellow);
 }
 
 .grid {
@@ -294,6 +294,6 @@ ul li a {
 
 header div .titulo {
   line-height: 145px;
+  background-color: rgb(200, 137, 251);
   height: 100px;
-  background-color: aqua;
 }/*# sourceMappingURL=sass-styles.css.map */

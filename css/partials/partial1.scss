@@ -1,9 +1,10 @@
 .piedepag{
 	color: darkviolet;
-	font-size: 15px;
+	font-size: 50px;
 	text-transform: uppercase;
 	font-family: monospace;
 	text-align: right;
+	background-color: map-get($color, colorT);
 			
 }
 .imagen{
@@ -37,7 +38,7 @@ body{
 	height: 600px;
 	flex-direction: column;
 	text-align: center;
-	background-image: radial-gradient(orange yellow);
+
 }
 
 
@@ -60,6 +61,7 @@ body{
 	background-color: rgba(155, 146, 146, 0.807);
 	border-bottom: 3px solid black;
 	transition: padding 0.5s;
+	
 
 }
 
@@ -72,4 +74,3 @@ body{
 .imagen:hover {
 	transform: rotate(360deg);
 }
-
