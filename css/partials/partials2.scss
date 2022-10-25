@@ -230,28 +230,28 @@ ul{
 	font-family: fantasy;
 	display: flex;
 	justify-content: center;
-	// animation-name: animacion;
-	// animation-duration: 10s;
-	// animation-iteration-count: infinite;
+	animation-name: animacion;
+	animation-duration: 10s;
+     animation-iteration-count: infinite;
 }
 
-// @keyframes animacion {
-// 	0% {
-// 		transform: translateX(-300px) ;
-// 	}
-// 	25% {
-// 		color: yellow;
-// 	}
-// 	50% {color: orangered;
-// 	}
-// 	75%{
-// 		color: red;
-// 	}
-// 	100% {
-// 	transform: translateX(300px) ;
+ @keyframes animacion {
+ 	0% {
+		transform: translateX(-300px) ;
+ 	}
+ 	25% {
+		color: yellow;
+ 	}
+	50% {color: orangered;
+	}
+	75%{
+ 		color: red;
+	}
+ 	100% {
+	transform: translateX(300px) ;
 
-// 	}
-// }
+	}
+ }
 header{
     div{
       .titulo{

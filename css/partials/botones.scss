@@ -1,7 +1,0 @@
-.botonUno {
-    @include boton($backColor: rgb(255, 128, 0),$border: 05px solid rgb(255, 17, 0));
-    }
-    
-    .botonDos {
-    @include boton($backColor: rgb(157, 255, 0),$border: 05px solid rgb(0, 72, 255));
-        }
